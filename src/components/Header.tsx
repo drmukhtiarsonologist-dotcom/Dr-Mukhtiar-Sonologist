@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Stethoscope, ShoppingCart, Menu, X } from 'lucide-react';
+import { ShoppingCart, Menu, X } from 'lucide-react';
 import { useBooking } from '../context/BookingContext';
 
 const navLinks = [
@@ -20,9 +20,8 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 text-blue-600 font-bold text-lg">
-            <Stethoscope className="w-6 h-6" />
-            <span>Mukhtiyar Ultrasounds</span>
+          <Link to="/" className="flex items-center gap-2">
+            <img src="/logo.png" alt="Mukhtiar Ultrasounds Logo" className="h-10 w-auto" />
           </Link>
 
           {/* Desktop nav */}

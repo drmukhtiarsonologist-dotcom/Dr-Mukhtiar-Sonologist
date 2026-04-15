@@ -14,8 +14,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <h3 className="text-white font-bold text-lg mb-1">Mukhtiyar Ultrasounds</h3>
-            <p className="text-slate-400 text-xs mb-1">مختیار الٹراساؤنڈز</p>
+            <img src="/logo.png" alt="Mukhtiar Ultrasounds" className="h-14 w-auto mb-3" />
             <p className="text-slate-400 text-sm">Precision Imaging. Prioritizing Your Time.</p>
             <p className="text-slate-500 text-xs mt-1">درست تصویر کشی۔ آپ کا وقت ہماری ترجیح۔</p>
           </div>
