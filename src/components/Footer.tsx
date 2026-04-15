@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 
 const quickLinks = [
-  { label: 'Home', to: '/' },
-  { label: 'Services', to: '/services' },
-  { label: 'Dashboard', to: '/dashboard' },
-  { label: 'Book Appointment', to: '/cart' },
+  { label: 'Home / ہوم', to: '/' },
+  { label: 'Services / خدمات', to: '/services' },
+  { label: 'Dashboard / ڈیش بورڈ', to: '/dashboard' },
+  { label: 'Book Appointment / اپوائنٹمنٹ', to: '/cart' },
 ];
 
 export default function Footer() {
@@ -14,8 +14,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <h3 className="text-white font-bold text-lg mb-2">Mukhtiyar Ultrasounds</h3>
+            <h3 className="text-white font-bold text-lg mb-1">Mukhtiyar Ultrasounds</h3>
+            <p className="text-slate-400 text-xs mb-1">مختیار الٹراساؤنڈز</p>
             <p className="text-slate-400 text-sm">Precision Imaging. Prioritizing Your Time.</p>
+            <p className="text-slate-500 text-xs mt-1">درست تصویر کشی۔ آپ کا وقت ہماری ترجیح۔</p>
           </div>
 
           {/* Quick links */}
@@ -37,17 +39,18 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="text-white font-semibold mb-3">Contact</h4>
+            <h4 className="text-white font-semibold mb-1">Contact / رابطہ</h4>
             <ul className="space-y-2 text-sm text-slate-400">
-              <li>Phone: +92-300-0000000</li>
-              <li>Email: info@mukhtiyarultrasounds.com</li>
-              <li>Address: Karachi, Pakistan</li>
+              <li>📞 +92-300-0000000</li>
+              <li>✉️ drmukhtiarsonologist@gmail.com</li>
+              <li>📍 Ladies Jail Road, Larkana, Pakistan</li>
+              <li className="text-xs text-slate-500">لیڈیز جیل روڈ، لاڑکانہ، پاکستان</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-slate-700 mt-10 pt-6 text-center text-sm text-slate-500">
-          © 2024 Mukhtiyar Ultrasounds. All rights reserved.
+          © 2024 Mukhtiyar Ultrasounds. All rights reserved. | تمام حقوق محفوظ ہیں
         </div>
       </div>
     </footer>

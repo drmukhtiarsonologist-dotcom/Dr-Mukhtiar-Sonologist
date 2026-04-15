@@ -4,9 +4,9 @@ import { Stethoscope, ShoppingCart, Menu, X } from 'lucide-react';
 import { useBooking } from '../context/BookingContext';
 
 const navLinks = [
-  { label: 'Home', to: '/' },
-  { label: 'Services', to: '/services' },
-  { label: 'Dashboard', to: '/dashboard' },
+  { label: 'Home / ہوم', to: '/' },
+  { label: 'Services / خدمات', to: '/services' },
+  { label: 'Dashboard / ڈیش بورڈ', to: '/dashboard' },
 ];
 
 export default function Header() {

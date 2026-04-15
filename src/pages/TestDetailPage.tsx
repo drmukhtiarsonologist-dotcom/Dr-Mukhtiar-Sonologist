@@ -94,16 +94,16 @@ export default function TestDetailPage() {
             {/* Price */}
             <div className="flex items-baseline gap-3 mb-6">
               <span className="text-3xl font-bold text-blue-600">
-                ₹{(product.discountPrice ?? product.price).toLocaleString()}
+                Rs. {(product.discountPrice ?? product.price).toLocaleString()}
               </span>
               {product.discountPrice && (
                 <span className="text-slate-400 text-lg line-through">
-                  ₹{product.price.toLocaleString()}
+                  Rs. {product.price.toLocaleString()}
                 </span>
               )}
               {product.discountPrice && (
                 <span className="text-green-600 text-sm font-medium">
-                  Save ₹{(product.price - product.discountPrice).toLocaleString()}
+                  Save Rs. {(product.price - product.discountPrice).toLocaleString()}
                 </span>
               )}
             </div>

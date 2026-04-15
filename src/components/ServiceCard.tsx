@@ -59,11 +59,11 @@ export default function ServiceCard({ product }: ServiceCardProps) {
         {/* Price */}
         <div className="flex items-baseline gap-2 mt-auto pt-2">
           <span className="text-blue-600 font-bold text-base">
-            ₹{(product.discountPrice ?? product.price).toLocaleString()}
+            Rs. {(product.discountPrice ?? product.price).toLocaleString()}
           </span>
           {product.discountPrice && (
             <span className="text-slate-400 text-sm line-through">
-              ₹{product.price.toLocaleString()}
+              Rs. {product.price.toLocaleString()}
             </span>
           )}
         </div>

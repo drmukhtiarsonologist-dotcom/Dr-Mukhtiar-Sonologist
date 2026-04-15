@@ -53,18 +53,18 @@ export default function CartPage() {
           <h2 className="text-lg font-bold text-slate-900 mb-4">Order Summary</h2>
           <div className="space-y-2 text-sm">
             <div className="flex justify-between text-slate-600">
-              <span>Subtotal</span>
-              <span>₹{subtotal.toLocaleString()}</span>
+              <span>Subtotal / کل رقم</span>
+              <span>Rs. {subtotal.toLocaleString()}</span>
             </div>
             {discountTotal > 0 && (
               <div className="flex justify-between text-green-600">
-                <span>Discount</span>
-                <span>−₹{discountTotal.toLocaleString()}</span>
+                <span>Discount / رعایت</span>
+                <span>−Rs. {discountTotal.toLocaleString()}</span>
               </div>
             )}
             <div className="border-t border-slate-100 pt-2 flex justify-between font-bold text-slate-900 text-base">
-              <span>Total</span>
-              <span>₹{total.toLocaleString()}</span>
+              <span>Total / کل</span>
+              <span>Rs. {total.toLocaleString()}</span>
             </div>
           </div>
         </div>
