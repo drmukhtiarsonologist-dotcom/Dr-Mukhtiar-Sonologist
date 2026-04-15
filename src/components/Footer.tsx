@@ -41,7 +41,7 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-1">Contact / رابطہ</h4>
             <ul className="space-y-2 text-sm text-slate-400">
-              <li>📞 +92-300-0000000</li>
+              <li>📞 +92-316-3618120</li>
               <li>✉️ drmukhtiarsonologist@gmail.com</li>
               <li>📍 Ladies Jail Road, Larkana, Pakistan</li>
               <li className="text-xs text-slate-500">لیڈیز جیل روڈ، لاڑکانہ، پاکستان</li>
