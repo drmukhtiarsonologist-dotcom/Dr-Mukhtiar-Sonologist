@@ -7,7 +7,10 @@ import type { Category, Product } from '../types';
 import type { SortOption } from '../components/FilterBar';
 import productsRaw from '../data/products.json';
 
-const products = productsRaw as Product[];
+// Only ultrasound and packages — lab tests removed
+const products = (productsRaw as Product[]).filter(
+  (p) => p.category === 'ultrasound' || p.category === 'package'
+);
 
 const PAGE_SIZE = 9;
 
@@ -65,7 +68,8 @@ export default function ServicesPage() {
   return (
     <Layout>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-        <h1 className="text-3xl font-bold text-slate-900 mb-6">Our Services</h1>
+        <h1 className="text-3xl font-bold text-slate-900 mb-2">Our Ultrasound Services</h1>
+        <p className="text-slate-500 text-sm mb-6">ہماری الٹراساؤنڈ اور پیکج خدمات</p>
 
         <FilterBar
           selectedCategory={category}

@@ -12,10 +12,9 @@ interface FilterBarProps {
 }
 
 const categories: { label: string; value: Category }[] = [
-  { label: 'All', value: 'all' },
-  { label: 'Ultrasound', value: 'ultrasound' },
-  { label: 'Lab Tests', value: 'lab-test' },
-  { label: 'Packages', value: 'package' },
+  { label: 'All / سب', value: 'all' },
+  { label: 'Ultrasound / الٹراساؤنڈ', value: 'ultrasound' },
+  { label: 'Packages / پیکجز', value: 'package' },
 ];
 
 export default function FilterBar({
