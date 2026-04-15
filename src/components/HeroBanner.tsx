@@ -21,7 +21,23 @@ const slides = [
   },
   {
     image: '/images/hero-scan-strips.jpg',
-    alt: '3D ultrasound scan printouts',
+    alt: 'Patient during ultrasound scan',
+  },
+  {
+    image: '/images/hero-scan-printout.jpg',
+    alt: '3D ultrasound scan printouts on white surface',
+  },
+  {
+    image: '/images/hero-machine-night.jpg',
+    alt: 'Ultrasound machine in clinic room at night',
+  },
+  {
+    image: '/images/hero-printout-machine.jpg',
+    alt: 'Ultrasound scan printouts coming from machine',
+  },
+  {
+    image: '/images/hero-doctor-scan.jpg',
+    alt: 'Doctor with stethoscope operating ultrasound machine',
   },
 ];
 
