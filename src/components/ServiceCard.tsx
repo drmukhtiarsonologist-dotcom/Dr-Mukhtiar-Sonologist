@@ -90,8 +90,20 @@ export default function ServiceCard({ product }: ServiceCardProps) {
   return (
     <div className="bg-white shadow-sm border border-slate-100 rounded-xl overflow-hidden hover:shadow-md transition-shadow flex flex-col">
       {/* Illustration placeholder */}
-      <div className={`relative h-40 flex items-center justify-center ${bgClass[product.category] ?? 'bg-slate-50'}`}>
-        <CategoryIllustration category={product.category} />
+      <div className={`relative h-44 flex items-center justify-center overflow-hidden ${!product.imageUrl ? (bgClass[product.category] ?? 'bg-slate-50') : ''}`}>
+        {product.imageUrl ? (
+          <img
+            src={product.imageUrl}
+            alt={product.name}
+            className="w-full h-full object-cover"
+            onError={(e) => {
+              (e.target as HTMLImageElement).style.display = 'none';
+              (e.target as HTMLImageElement).parentElement!.classList.add(bgClass[product.category] ?? 'bg-slate-50');
+            }}
+          />
+        ) : (
+          <CategoryIllustration category={product.category} />
+        )}
         <span
           className={`absolute top-3 left-3 text-xs font-semibold px-2 py-1 rounded-full ${
             categoryBadgeClass[product.category] ?? 'bg-slate-100 text-slate-600'
