@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { BookingProvider } from './context/BookingContext';
 import HomePage from './pages/HomePage';
 import ServicesPage from './pages/ServicesPage';
@@ -18,6 +19,7 @@ function App() {
           <Route path="/dashboard" element={<DashboardPage />} />
         </Routes>
       </BookingProvider>
+      <SpeedInsights />
     </BrowserRouter>
   );
 }
