@@ -3,6 +3,8 @@ import HeroBanner from '../components/HeroBanner';
 import ValueProps from '../components/ValueProps';
 import FeaturedServices from '../components/FeaturedServices';
 import TrustSignals from '../components/TrustSignals';
+import Reviews from '../components/Reviews';
+import GoogleMap from '../components/GoogleMap';
 
 export default function HomePage() {
   return (
@@ -11,6 +13,8 @@ export default function HomePage() {
       <ValueProps />
       <FeaturedServices />
       <TrustSignals />
+      <Reviews />
+      <GoogleMap />
     </Layout>
   );
 }
