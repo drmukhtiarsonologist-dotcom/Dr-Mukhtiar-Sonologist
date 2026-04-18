@@ -11,7 +11,7 @@
     "prepInstructions": "Fast for 6 hours before the test. Drink 4–6 glasses of water 1 hour before and do not urinate until after the scan.",
     "tags": ["abdomen", "pelvis", "KUB", "kidney", "bladder", "stones"],
     "featured": true,
-    "imageUrl": "/images/hero-ultrasound-screen.jpg"
+    "imageUrl": "/images/abdomen-kub.png"
   },
   {
     "id": "us-02",
@@ -25,7 +25,7 @@
     "prepInstructions": "Drink 2–3 glasses of water 30 minutes before the scan. Do not empty your bladder before the appointment.",
     "tags": ["obstetric", "pregnancy", "fetal", "2D", "3D", "anatomy"],
     "featured": true,
-    "imageUrl": "/images/hero-pregnant-scans.jpg"
+    "imageUrl": "/images/obstetric-scan.png"
   },
   {
     "id": "us-03",
@@ -39,7 +39,7 @@
     "prepInstructions": "No special preparation required. Wear a loose-fitting shirt or top with a low neckline for easy access to the neck area.",
     "tags": ["carotid", "doppler", "stroke", "vascular", "neck", "arteries"],
     "featured": false,
-    "imageUrl": "/images/hero-doctor-scan.jpg"
+    "imageUrl": "/images/carotid-doppler.png"
   },
   {
     "id": "us-04",
@@ -53,7 +53,7 @@
     "prepInstructions": "No preparation needed. Wear a shirt with a low or open neckline. Remove any necklaces before the appointment.",
     "tags": ["thyroid", "neck", "nodule", "goiter", "lymph node"],
     "featured": false,
-    "imageUrl": "/images/hero-machine-room.jpg"
+    "imageUrl": "/images/thyroid-neck.png"
   },
   {
     "id": "us-05",
@@ -67,7 +67,7 @@
     "prepInstructions": "No fasting required. Avoid heavy exercise 2 hours before the test. Wear a two-piece outfit for easy chest access.",
     "tags": ["heart", "echo", "cardiac", "echocardiogram", "valves"],
     "featured": true,
-    "imageUrl": "/images/hero-machine-night.jpg"
+    "imageUrl": "/images/echocardiogram.png"
   },
   {
     "id": "us-06",
@@ -95,7 +95,7 @@
     "prepInstructions": "Drink 4 glasses of water 1 hour before the scan and do not urinate. For transvaginal scan, an empty bladder is preferred.",
     "tags": ["pelvic", "uterus", "ovaries", "PCOS", "fibroids", "female"],
     "featured": false,
-    "imageUrl": "/images/hero-scan-printout.jpg"
+    "imageUrl": "/images/pelvic-female.jpg"
   },
   {
     "id": "us-08",
@@ -108,7 +108,7 @@
     "prepInstructions": "No special preparation required. Wear comfortable, loose-fitting clothing.",
     "tags": ["scrotal", "testes", "varicocele", "hydrocele", "male"],
     "featured": false,
-    "imageUrl": "/images/hero-doctor-machine.jpg"
+    "imageUrl": "/images/scrotal.jpg"
   },
   {
     "id": "us-09",
@@ -121,7 +121,7 @@
     "prepInstructions": "No preparation required. Wear loose clothing that allows easy access to the area being examined.",
     "tags": ["MSK", "joint", "tendon", "muscle", "rotator cuff", "bursitis"],
     "featured": false,
-    "imageUrl": "/images/hero-printout-machine.jpg"
+    "imageUrl": "/images/msk-ultrasound.png"
   },
   {
     "id": "us-10",
@@ -135,7 +135,7 @@
     "prepInstructions": "Fast for 4–6 hours before the scan. Drink water as needed to stay hydrated.",
     "tags": ["renal", "doppler", "kidney", "hypertension", "blood flow"],
     "featured": false,
-    "imageUrl": "/images/hero-ultrasound-screen.jpg"
+    "imageUrl": "/images/renal-doppler.png"
   },
   {
     "id": "us-11",
@@ -149,7 +149,7 @@
     "prepInstructions": "No preparation required. Avoid applying deodorant, lotion, or powder to the breast area on the day of the scan.",
     "tags": ["breast", "lump", "cyst", "mammography", "female"],
     "featured": false,
-    "imageUrl": "/images/hero-pregnant-scans.jpg"
+    "imageUrl": "/images/breast-ultrasound.png"
   },
   {
     "id": "us-12",
@@ -163,7 +163,7 @@
     "prepInstructions": "An enema may be required 2 hours before the procedure. Follow the specific instructions provided at the time of booking.",
     "tags": ["prostate", "TRUS", "BPH", "male", "biopsy"],
     "featured": false,
-    "imageUrl": "/images/hero-doctor-scan.jpg"
+    "imageUrl": "/images/prostate-trus.jpg"
   },
   {
     "id": "lb-01",
@@ -345,7 +345,7 @@
     "prepInstructions": "Fast for 10–12 hours before your appointment. Drink only plain water. Bring any previous medical reports. Wear comfortable, loose-fitting clothing.",
     "tags": ["executive", "comprehensive", "annual", "corporate", "full body"],
     "featured": true,
-    "imageUrl": "/images/hero-machine-room.jpg"
+    "imageUrl": "/images/package-executive.png"
   },
   {
     "id": "pk-02",
@@ -359,7 +359,7 @@
     "prepInstructions": "Fast for 8 hours before the appointment. Drink water to keep your bladder full for the pelvic scan. Wear a two-piece outfit.",
     "tags": ["women", "wellness", "pelvic", "breast", "thyroid", "female"],
     "featured": true,
-    "imageUrl": "/images/hero-pregnant-scans.jpg"
+    "imageUrl": "/images/package-womens.jpg"
   },
   {
     "id": "pk-03",
@@ -373,7 +373,7 @@
     "prepInstructions": "Fast for 10 hours before the appointment. Avoid caffeine and strenuous exercise 24 hours prior. Bring a list of current medications.",
     "tags": ["cardiac", "heart", "cholesterol", "doppler", "ECG", "risk"],
     "featured": false,
-    "imageUrl": "/images/cardiac-risk-assessment-package.jpg"
+    "imageUrl": "/images/package-cardiac.jpg"
   },
   {
     "id": "pk-04",
@@ -387,7 +387,7 @@
     "prepInstructions": "Fast for 10–12 hours before the appointment. Do not take diabetes medications until after the blood draw. Drink water to stay hydrated.",
     "tags": ["diabetes", "glucose", "HbA1c", "kidney", "monitoring", "management"],
     "featured": false,
-    "imageUrl": "/images/diabetes-management-package.jpg"
+    "imageUrl": "/images/package-diabetes.png"
   },
   {
     "id": "pk-05",
@@ -401,7 +401,7 @@
     "prepInstructions": "Drink 3–4 glasses of water 1 hour before the scan. Do not empty your bladder. Bring your previous antenatal records.",
     "tags": ["antenatal", "pregnancy", "obstetric", "prenatal", "maternal"],
     "featured": false,
-    "imageUrl": "/images/antenatal-care-package.jpg"
+    "imageUrl": "/images/package-antenatal.png"
   },
   {
     "id": "pk-06",
@@ -415,6 +415,6 @@
     "prepInstructions": "Fast for 8 hours before the appointment. Drink water to keep your bladder full for the ultrasound. Wear comfortable clothing.",
     "tags": ["basic", "screening", "annual", "affordable", "routine"],
     "featured": false,
-    "imageUrl": "/images/basic-health-screening-package.jpg"
+    "imageUrl": "/images/package-basic.png"
   }
 ]
