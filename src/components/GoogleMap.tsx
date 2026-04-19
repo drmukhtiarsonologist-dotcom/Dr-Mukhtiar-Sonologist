@@ -35,8 +35,9 @@ export default function GoogleMap() {
               </div>
               <div>
                 <p className="font-semibold text-slate-900 text-sm">Address / پتہ</p>
-                <p className="text-slate-600 text-sm">Ladies Jail Road, Larkana, Sindh, Pakistan</p>
-                <p className="text-slate-500 text-xs">لیڈیز جیل روڈ، لاڑکانہ، سندھ، پاکستان</p>
+                <p className="text-slate-600 text-sm">Karachi Medical & Diagnostic Centre</p>
+                <p className="text-slate-600 text-sm">Near Ghinti Phatak, Larkana, Sindh, Pakistan</p>
+                <p className="text-slate-500 text-xs">کراچی میڈیکل اینڈ ڈائیگنوسٹک سینٹر، نزد گھنٹی پھاٹک، لاڑکانہ</p>
               </div>
             </div>
 

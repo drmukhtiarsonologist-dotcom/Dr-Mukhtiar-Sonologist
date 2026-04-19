@@ -6,7 +6,9 @@ import { useBooking } from '../context/BookingContext';
 const navLinks = [
   { label: 'Home / ہوم', to: '/' },
   { label: 'Services / خدمات', to: '/services' },
-  { label: 'Dashboard / ڈیش بورڈ', to: '/dashboard' },
+  { label: 'About / ہمارے بارے میں', to: '/about' },
+  { label: 'FAQ / سوالات', to: '/faq' },
+  { label: 'Contact / رابطہ', to: '/contact' },
 ];
 
 export default function Header() {

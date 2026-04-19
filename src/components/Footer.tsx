@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom';
 const quickLinks = [
   { label: 'Home / ہوم', to: '/' },
   { label: 'Services / خدمات', to: '/services' },
-  { label: 'Dashboard / ڈیش بورڈ', to: '/dashboard' },
+  { label: 'About / ہمارے بارے میں', to: '/about' },
+  { label: 'FAQ / سوالات', to: '/faq' },
+  { label: 'Contact / رابطہ', to: '/contact' },
   { label: 'Book Appointment / اپوائنٹمنٹ', to: '/cart' },
 ];
 
@@ -40,10 +42,11 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-1">Contact / رابطہ</h4>
             <ul className="space-y-2 text-sm text-slate-400">
-              <li>📞 +92-316-3618120</li>
+              <li>📞 074-4042020 (Main) / +92-316-3618120 (WhatsApp)</li>
               <li>✉️ drmukhtiarsonologist@gmail.com</li>
-              <li>📍 Ladies Jail Road, Larkana, Pakistan</li>
-              <li className="text-xs text-slate-500">لیڈیز جیل روڈ، لاڑکانہ، پاکستان</li>
+              <li>📍 Karachi Medical & Diagnostic Centre</li>
+              <li className="text-xs text-slate-500">Near Ghinti Phatak, Larkana, Sindh</li>
+              <li className="text-xs text-slate-500">نزد گھنٹی پھاٹک، لاڑکانہ، سندھ</li>
             </ul>
           </div>
         </div>
