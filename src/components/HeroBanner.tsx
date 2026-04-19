@@ -88,45 +88,39 @@ export default function HeroBanner() {
           </div>
 
           {/* Headline */}
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-3 drop-shadow-lg">
+          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-4 drop-shadow-lg">
             Precision Imaging.
             <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
               Prioritizing Your Time.
             </span>
           </h1>
-          <p className="text-blue-200 text-lg font-medium mb-4 drop-shadow">
-            درست تصویر کشی۔ آپ کا وقت ہماری ترجیح۔
+
+          {/* Sub-headline — English only, short */}
+          <p className="text-slate-300 text-base sm:text-lg max-w-xl mb-8 leading-relaxed">
+            Advanced 2D/3D ultrasound scans by Dr. Mukhtiar Ahmed Abro. Book online, get results same day.
           </p>
 
-          {/* Sub-headline */}
-          <p className="text-slate-300 text-base sm:text-lg max-w-xl mb-2 leading-relaxed">
-            Advanced 2D/3D ultrasound scans by experienced sonologists. Book your appointment online and get results fast.
-          </p>
-          <p className="text-slate-400 text-sm mb-10">
-            آن لائن اپوائنٹمنٹ بک کریں اور تجربہ کار سونولوجسٹ سے الٹراساؤنڈ کروائیں۔
-          </p>
-
-          {/* CTAs */}
-          <div className="flex flex-col sm:flex-row gap-4">
+          {/* CTAs — single line each */}
+          <div className="flex flex-col sm:flex-row gap-3">
             <Link
               to="/cart"
-              className="group inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-bold px-8 py-4 rounded-xl shadow-lg shadow-blue-600/30 transition-all hover:scale-105 hover:shadow-blue-500/40"
+              className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-bold px-6 py-4 rounded-xl shadow-lg transition-all hover:scale-105 text-base"
             >
-              <Calendar className="w-5 h-5" />
-              Secure My Slot / اپنی باری محفوظ کریں
+              <Calendar className="w-5 h-5 flex-shrink-0" />
+              Book Appointment
             </Link>
             <a
-              href="tel:+923163618120"
-              className="inline-flex items-center justify-center gap-2 border-2 border-white/30 text-white font-semibold px-8 py-4 rounded-xl hover:bg-white/10 backdrop-blur-sm transition-all hover:border-white/60"
+              href="tel:07440420020"
+              className="inline-flex items-center justify-center gap-2 border-2 border-white/40 text-white font-semibold px-6 py-4 rounded-xl hover:bg-white/10 backdrop-blur-sm transition-all text-base"
             >
-              <Phone className="w-5 h-5" />
-              Call Now / ابھی کال کریں
+              <Phone className="w-5 h-5 flex-shrink-0" />
+              Call: 074-4042020
             </a>
           </div>
 
           {/* Stats row */}
-          <div className="flex flex-wrap gap-6 mt-12">
+          <div className="flex flex-wrap gap-6 mt-10">
             {[
               { value: '15+', label: 'Years Experience' },
               { value: '10,000+', label: 'Patients Served' },
